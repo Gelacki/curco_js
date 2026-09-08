@@ -54,3 +54,5 @@ repeticoes++;
 } while (numeroDigitado !== 0);
 
 console.log('Total de números digitados: ' + quantidade)
+
+// 6
