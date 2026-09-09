@@ -33,26 +33,46 @@
 
 // 5. Receber numeros até digitar 0 (simulado com array)
 
-let numeroDigitado;
-let quantidade = 0;
-let repeticoes = 0;
+//let numeroDigitado;
+//let quantidade = 0;
+//let repeticoes = 0;
 
-do {
+//do {
     //simulação manuel de entrada
-    if (repeticoes === 0) {
-        numeroDigitado = 5;
-    } else if (repeticoes === 1) {
-        numeroDigitado = 10;
-    } else {numeroDigitado = 0;
+    //if (repeticoes === 0) {
+        //numeroDigitado = 5;
+    //} else if (repeticoes === 1) {
+        //numeroDigitado = 10;
+    //} else {numeroDigitado = 0;
+//}
+
+//if (numeroDigitado !== 0) {
+    //quantidade++;
+//}
+
+//repeticoes++;
+//} while (numeroDigitado !== 0);
+
+//console.log('Total de números digitados: ' + quantidade)
+
+// 6. Jogo do numero secreto
+
+let numeroSecreto = 7;
+
+for (let tentativa = 1; tentativa <= 3; tentativa++) {
+  let numeroTentado;
+
+  if (tentativa === 1) {
+    numeroTentado = 3;
+  } else if (tentativa === 2) {
+    numeroTentado = 5;
+  } else {
+    numeroTentado = 7;
+  }
+
+  if (numeroTentado === numeroSecreto) {
+    console.log("Acertou!");
+  } else {
+    console.log("Tente novamente");
+  }
 }
-
-if (numeroDigitado !== 0) {
-    quantidade++;
-}
-
-repeticoes++;
-} while (numeroDigitado !== 0);
-
-console.log('Total de números digitados: ' + quantidade)
-
-// 6
