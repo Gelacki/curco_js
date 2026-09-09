@@ -55,4 +55,24 @@ repeticoes++;
 
 console.log('Total de números digitados: ' + quantidade)
 
-// 6
+// 6. Jogo do numero secreto
+
+let numeroSecreto = 7;
+
+for (let tentativa = 1; tentativa <= 3; tentativa++) {
+  let numeroTentado;
+
+  if (tentativa === 1) {
+    numeroTentado = 3;
+  } else if (tentativa === 2) {
+    numeroTentado = 5;
+  } else {
+    numeroTentado = 7;
+  }
+
+  if (numeroTentado === numeroSecreto) {
+    console.log("Acertou!");
+  } else {
+    console.log("Tente novamente");
+  }
+}
