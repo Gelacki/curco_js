@@ -1,0 +1,102 @@
+IAgora?! Testando decisões em JavaScript com apoio de IA
+Discutir no fórum
+Você já resolveu manualmente a lista de exercícios sobre condicionais em JavaScript. Agora, a proposta é usar a IA como apoio de revisão e teste, e não como resolvedora. O objetivo desta atividade é colocar suas soluções à prova, analisar a lógica usada e verificar se as decisões implementadas com if/else, operador ternário e switch-case realmente atendem ao enunciado.
+
+A ideia é investigar o comportamento do seu código com mais critério: observar entradas, prever saídas, testar no Node.js e comparar o resultado real com o esperado. Ao longo do processo, use a IA para revisar seu raciocínio, levantar hipóteses de teste e questionar possíveis ajustes — mas mantenha a decisão final ancorada no contexto do exercício e no que foi estudado na aula.
+
+Etapa 1 — Escolhendo os exercícios
+Selecione três exercícios específicos da sua lista já resolvida:
+
+Um exercício com múltiplas faixas, como:
+nota convertida em conceito; ou
+saudação de acordo com a hora.
+Um exercício com duas saídas, como:
+par/ímpar com operador ternário.
+Um exercício com múltiplas opções, como:
+menu implementado com switch-case.
+A ideia é comparar três tipos diferentes de tomada de decisão em JavaScript. Escolha exercícios que representem bem essas estruturas para que a revisão com IA seja mais útil.
+
+Etapa 2 — Revisão com IA
+Para cada um dos três exercícios escolhidos:
+
+cole o enunciado;
+cole a sua solução em JavaScript;
+peça à IA uma análise crítica da lógica, sem pedir uma nova resolução automática.
+O foco aqui é verificar:
+
+se as condições estão organizadas corretamente;
+se existe alguma sobreposição ou lacuna entre casos;
+se a estrutura escolhida faz sentido para o tipo de problema;
+se a solução respeita o escopo do que foi pedido na aula.
+Prompt sugerido
+
+Copiar
+Analise criticamente este exercício de JavaScript sobre condicionais.
+
+Quero que você:
+1. avalie se minha lógica está correta;
+2. aponte possíveis erros, ambiguidades ou casos não cobertos;
+3. diga se a estrutura usada faz sentido para o enunciado;
+4. sugira testes úteis para validar o comportamento;
+5. não reescreva a solução inteira, a menos que seja realmente necessário para explicar um erro.
+
+Enunciado:
+[cole aqui]
+
+Minha solução:
+[cole aqui]
+
+Etapa 3 — Montando e executando os testes
+Depois da revisão inicial, peça à IA que ajude a montar uma tabela de testes para cada exercício. Nesta atividade, a tabela faz sentido porque você precisa comparar entradas, saída esperada e saída real.
+
+Monte testes com:
+
+entradas representativas;
+casos-limite quando fizer sentido;
+saída esperada;
+justificativa do porquê aquele teste é importante.
+Exemplo de estrutura de tabela
+Entrada	Saída esperada	Justificativa
+xxx	xxx	xxx
+Em seguida:
+
+execute seu código no Node.js;
+registre a saída real obtida;
+compare com a saída esperada;
+observe onde houve coincidência e onde houve divergência.
+Essa comparação é a parte mais importante da atividade: ela mostra se a sua lógica funciona na prática, e não apenas “parece correta” à primeira vista.
+
+Etapa 4 — Ajustando com critério
+Se a IA apontar algum possível erro ou melhoria, só altere seu código se você conseguir explicar com clareza:
+
+qual era o problema;
+por que aquilo era um erro ou limitação;
+como a correção resolve a situação.
+Evite mudar o código apenas porque a IA sugeriu. Antes de aceitar qualquer ajuste, confira:
+
+se ele continua coerente com o enunciado;
+se está dentro do conteúdo estudado;
+se não complicou demais uma solução simples;
+se você realmente entende a modificação feita.
+O objetivo não é “embelezar” a resposta, e sim refinar o raciocínio com base em evidências.
+
+Etapa 5 — Provocando a análise crítica
+Depois da revisão e dos testes, faça uma segunda rodada com a IA para avaliar se as sugestões dadas por ela foram proporcionais ao exercício ou se houve exagero, desvio de escopo ou reescrita excessiva.
+
+Segundo prompt sugerido
+
+Copiar
+Revise sua análise anterior com olhar crítico.
+
+Quero que você verifique:
+1. se sugeriu casos de teste fora do escopo da aula;
+2. se propôs mudanças desnecessárias para um exercício introdutório;
+3. se reescreveu demais algo que poderia ser explicado de forma mais simples;
+4. se sua orientação respeita o enunciado original e o contexto de uma lista sobre condicionais em JavaScript.
+
+Responda de forma objetiva, destacando apenas o que realmente é relevante para revisão.
+
+Essa etapa ajuda você a não tratar toda sugestão da IA como automaticamente melhor. Em muitos casos, a melhor decisão continua sendo a solução mais simples e alinhada ao que foi trabalhado em aula.
+
+Etapa 6 — Compartilhando seus achados
+Depois de concluir a atividade, publique no fórum um relato breve contando quais exercícios você escolheu, quais testes foram mais úteis para verificar sua lógica, que diferenças encontrou entre a saída esperada e a saída real, e o que aprendeu ao revisar decisões com if/else, operador ternário e switch-case. Se alguma sugestão da IA pareceu exagerada ou fora do escopo, vale comentar também como você percebeu isso e que critério usou para decidir o que manter ou descartar.
