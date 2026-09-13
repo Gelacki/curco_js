@@ -15,8 +15,8 @@ const valores = Object.values(pessoa)
 
 const entradas = Object.entries(pessoa)
 
-// console.log('Chaves:', chaves,)
-// console.log('Valores:', valores)
-// console.log('Entredas (chave/valor):', entradas)
+console.log('Chaves:', chaves,)
+console.log('Valores:', valores)
+console.log('Entredas (chave/valor):', entradas)
 
-console.log("Chaves:" [chaves], "\nValores:" [valores], "\nEntredas (chave/valor):" [entradas])
+// console.log("Chaves:" [chaves], "\nValores:" [valores], "\nEntredas (chave/valor):" [entradas])
